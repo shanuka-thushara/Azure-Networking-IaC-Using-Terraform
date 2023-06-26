@@ -32,8 +32,7 @@ Before using this Terraform code, make sure you have the following prerequisites
 5. Review and modify the Terraform code in the .tf files to match your desired network resource configuration.
 6. Provision the resources:
    ```shell
-   terraform apply
-      
+   terraform apply    
 Note: This command will show you the planned changes and prompt for confirmation before applying the changes to your Azure subscription.
 
 7. Confirm the changes by typing yes when prompted.
@@ -41,16 +40,6 @@ Note: This command will show you the planned changes and prompt for confirmation
 9. You can now use the provisioned network resources in your Azure infrastructure.
 
 # Clean Up
-
 To clean up and destroy the created network resources, run the following command:
-
    ```shell
    terraform destroy
-
-   
-
-
-
-
- 
- 
